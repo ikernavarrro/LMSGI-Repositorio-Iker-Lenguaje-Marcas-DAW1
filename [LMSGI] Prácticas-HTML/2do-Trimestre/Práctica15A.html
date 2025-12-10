@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+	<head>
+		<title>Práctica 15A</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"  />
+	</head>
+	
+	<body>
+		<h1>Ejemplo &lt;fieldset&gt; y &lt;label&gt;</h1>
+		<form method="post" action="mailto:argeme.vila@zabalburu.org?subject=Práctica%2015A%20-%20Iker" enctype="text/plain">
+			<fieldset>
+				<legend>Información personal</legend>
+				<p>
+					<!-------------------------------------->
+					<label>
+						Nombre:&nbsp;<input type="text" name="nombre" size="10" maxlength="15" />
+					</label>	
+					<!-------------------------------------->
+					<label for="apl">Apellido:&nbsp;</label>		
+					<input type="text" name="apellido" size="10" maxlength="20" id="apl" />
+					<!-------------------------------------->
+					<input type="checkbox" name="mayorEdad" value="si" id="mayorEdad" />
+					<label for="mayorEdad">Mayor de edad</label>
+					<!-------------------------------------->
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Información académica</legend>
+				<p>
+					<!-------------------------------------->
+					<label for="uni">Universidad:&nbsp;</label>		
+					<input type="text" name="universidad" size="10" maxlength="25" id="uni" />
+					<!-------------------------------------->
+					<input type="checkbox" name="tituloObtenido" value="si" id="titOb" />
+					<label for="titOb">Título Obtenido</label>
+					<!-------------------------------------->
+				</p>	
+				<p>
+					<!-------------------------------------->
+					Idiomas: <br />
+					<input type="checkbox" name="idioma" value="eu" id="idiomas1" />
+					<label for="idiomas1">Euskera</label>
+					<br /><!-------------------------------->
+					<input type="checkbox" name="idioma" value="en" id="idiomas2" />
+					<label for="idiomas2">Inglés</label>
+					<br /><!-------------------------------->
+					<input type="checkbox" name="idioma" value="otros" id="idiomas3" />
+					<label for="idiomas3">Otros</label>
+					<!-------------------------------------->
+				</p>
+			</fieldset>
+			<fieldset>
+			<p>
+				<input type="submit" value="Enviar Correo" /> <!--Sin name porque solo hay un botón.-->
+				<input type="reset" value="Limpiar" />
+			</p>
+			</fieldset>
+		</form>
+	</body>
+</html>
+
+
