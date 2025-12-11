@@ -9,30 +9,32 @@
 		<h2>Ejemplo uso de atributos <i>accesskey</i> y <i>tabindex</i> y del botón de transferencia de archivos</h2>
 		<form>
 			<p>
-				Nombre <i>(Alt + Shift + n)</i>: <br />
-				<input type="text" name="nombre" size="10" maxlength="25" accesskey="n" id="nombre" />
+				<label for="nombre">Nombre <i>(Alt + Shift + n)</i>:</label> <br />
+				<input type="text" name="nombre" size="10" maxlength="25" accesskey="n" id="nombre" tabindex="1" />
 			</p>
 			<p>
-				Apellidos <i>(Alt + Shift + a)</i>: <br />
-				<input type="text" name="apellidos" size="10" maxlength="25" accesskey="a" id="apellido" />
+				<label for="apellidos">Apellidos <i>(Alt + Shift + a)</i>:</label> <br />
+				<input type="text" name="apellidos" size="10" maxlength="25" accesskey="a" id="apellido" tabindex="2" />
 			</p>
 			<p>	
-				Dirección <i>(Alt + Shift + i)</i>: <br />
-				<input type="text" name="dir" size="10" maxlength="25" accesskey="i" id="dir" />
+				<label for="dir">Dirección <i>(Alt + Shift + i)</i>:</label> <br />
+				<input type="text" name="dir" size="10" maxlength="25" accesskey="i" id="dir" tabindex="3" />
 			</p>
 			<p>
-				Código Postal <i>(Alt + Shift + c)</i>: <br />
-				<input type="text" name="cp" size="3" maxlength="5" accesskey="c" id="cp" />
+				<label for="cp">Código Postal <i>(Alt + Shift + c)</i>:</label> <br />
+				<input type="text" name="cp" size="5" maxlength="5" accesskey="c" id="cp" tabindex="4" />
 			</p>
 			<p>
-				Ciudad <i>(Alt + Shift + u)</i>: <br />
-				<input type="text" name="ciudad" size="10" maxlength="25" accesskey="u" id="ciudad" />
+				<label for="ciudad">Ciudad <i>(Alt + Shift + u)</i>:</label> <br />
+				<input type="text" name="ciudad" size="10" maxlength="25" accesskey="u" id="ciudad" tabindex="5" />
 			</p>
 			<p>
-				Comentarios <i>(Alt + Shift + o)</i>: <br />
+				<label for="com">Comentarios <i>(Alt + Shift + o)</i>:</label> <br />
+				<textarea name="comentarios" rows="8" cols="25" accesskey="o" tabindex="6" id="com"></textarea>
 			</p>
 			<p>
-				Archivo <i>(Alt + Shift + v)</i>: <br />
+				<label for="archivo">Archivo <i>(Alt + Shift + v)</i>:</label> <br />
+				<input type="file" name="archivo" size="15" maxlength="25" accept="image/*" id="archivo"  accesskey="v" />
 			</p>	
 		</form>
 	</body>	
