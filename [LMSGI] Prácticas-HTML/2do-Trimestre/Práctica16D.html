@@ -7,6 +7,131 @@
 	</head>
 	<body>
 		<h1>Formulario de Registro de Campeonato</h1>
+		<form method="get" action="Práctica16DB.html">
+			<table border="0" width="100%" cellpadding="5" summary="Resúmen de la tabla.">
+				<tr valign="top">
+					<td>
+						<fieldset>
+							<legend>
+								<b>Selección de carrera:</b>
+							</legend>
+							<select name="tipoCarrera" size="1">
+								<option value="null">--Selecciona Carrera--</option>
+								<option value="km3">3 Km.</option>
+								<option value="km5">5 Km.</option>
+								<option value="km10">10 Km.</option>
+								<option value="maraton">Maratón</option>
+								
+							</select>
+						</fieldset>
+					</td>
+					<td>
+						<fieldset>
+							<legend>
+								<b>Clase de carrera:</b>
+							</legend>
+							<select name="claseCarrera" size="3">
+								<option value="novato">Novatos (12-15)</option>
+								<option value="joven">Jóvenes (16-20)</option>
+								<option value="abierto">Abierto (+21).</option>
+								<option value="maestro">Maestro (+30)</option>
+								<option value="veterano">Veteranos (+40)</option>
+							</select>
+						</fieldset>
+					</td>
+					<td>	
+						<fieldset>
+							<legend>
+								<b>Competición:</b>
+							</legend>
+							<label>
+								<input type="radio" name="competicion" value="fondo" checked="checked" />&nbsp;Fondo <br /> 
+							</label>
+							<label>
+								<input type="radio" name="competicion" value="marcha" />&nbsp;Marcha <br /> 
+							</label>
+							<label>
+								<input type="radio" name="competicion" value="sillaRuedas" />&nbsp;Silla de Ruedas
+							</label>
+						</fieldset>
+					</td>	
+				</tr>
+				<tr valign="top">
+					<td>
+						<fieldset>
+							<legend>
+								<b>Medio de Transporte:</b>
+							</legend>	
+							<label>
+								<input type="checkbox" name="transporte" value="avion" />&nbsp;Avión <br /> 
+							</label>
+							<label>
+								<input type="checkbox" name="transporte" value="barco" />&nbsp;Barco <br /> 
+							</label>
+							<label>
+								<input type="checkbox" name="transporte" value="tren" />&nbsp;Tren <br /> 
+							</label>
+							<label>
+								<input type="checkbox" name="transporte" value="bus" />&nbsp;Autobus <br /> 
+							</label>
+							<label>
+								<input type="checkbox" name="transporte" value="vehiculoPropio" />&nbsp;Vehículo Propio
+							</label>
+						</fieldset>
+					</td>
+					<td>	
+						<fieldset>	
+							<legend>
+								<b>Modo de Pago:</b>
+							</legend>	
+							<label>
+								<input type="radio" name="modoPago" value="efectivo" checked="checked" />&nbsp;Efectivo <br /> 
+							</label>
+							<label>
+								<input type="radio" name="modoPago" value="giro" />&nbsp;Giro Postal <br /> 
+							</label>
+							<label>
+								<input type="radio" name="modoPago" value="cheque" />&nbsp;Cheque <br /> 
+							</label>
+							<label>
+								<input type="radio" name="modoPago" value="tarjeta" />&nbsp;Tarjeta de Crédito
+							</label>
+						</fieldset>
+					</td>
+					<td>		
+						<fieldset>	
+							<legend>
+								<b>Tipo de Tarjeta:</b>
+							</legend>
+							<label>
+								<input type="radio" name="tipoTarjeta" value="visa" />&nbsp;VISA <br /> 
+							</label>
+							<label>
+								<input type="radio" name="tipoTarjeta" value="amex" />&nbsp;American Express <br /> 
+							</label>
+							<label>
+								<input type="radio" name="tipoTarjeta" value="4b" />&nbsp;4B <br /> 
+							</label>
+							<label>
+								<input type="radio" name="tipoTarjeta" value="servired" />&nbsp;Servired <br /> 
+							</label>
+							<label>
+								<input type="radio" name="tipoTarjeta" value="red6000" />&nbsp;Red 6000
+							</label>
+						</fieldset>
+					</td>		
+				</tr>
+				<tr valign="top">
+					<td colspan="3" align="center">
+						<hr />
+						<p>
+							<input type="submit" value="Enviar Datos" /> <!--Sin name porque solo hay un botón.-->
+							<input type="reset" value="Limpiar" />
+						</p>
+					</td>
+				</tr>
+			</table>
+		</form>
 	</body>
 </html>
 
