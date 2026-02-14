@@ -1,0 +1,66 @@
+/*Estilos de la Página de Tributo de Amador Rivas*/
+* {
+	background-color: #D8E7F2;
+}
+
+.marco {
+	border-width: thick;
+	border-style: double;
+	border-color: black;
+	
+}
+
+#lqsa {
+	background-color:#FCEDA2;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+h1,h3,p.texto {
+	color: #333333;
+	font-family: Century Gothic, sans-serif;
+}
+
+.titulo {
+	font-weight: 900;
+	text-transform:capitalize;
+	text-decoration: overline;
+}
+
+.cita {
+	color: #333333;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bolder;
+	font-size:70%;
+}
+
+p i {
+	color: #3B76A1;
+	font-weight: bolder;
+}
+
+p strong {
+	background-color:#96D3FF;
+	font-weight: bolder;
+}
+
+.anchoContenido70 {
+	width: 70%;
+}
+
+.anchoContenido20 {
+	width: 20%;
+}
+
+.anchoContenido50 {
+	width: 50%;
+}
+
+.anchoContenido35 {
+	width: 35%;
+}
+
+#final {
+	text-align: center;
+	
+}
