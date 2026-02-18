@@ -7,7 +7,6 @@
 	border-width: thick;
 	border-style: double;
 	border-color: black;
-	
 }
 
 #lqsa {
@@ -18,7 +17,7 @@
 
 h1,h3,p.texto {
 	color: #333333;
-	font-family: Century Gothic, sans-serif;
+	font-family: "Century Gothic", sans-serif;
 }
 
 .titulo {

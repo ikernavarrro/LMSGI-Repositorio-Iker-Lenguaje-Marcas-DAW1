@@ -1,0 +1,51 @@
+#etiqueta1{
+	font-style:italic;
+}
+
+#etiqueta2{
+	font-style:oblique;
+}
+
+#etiqueta3{
+	font-family:serif;
+}
+
+#etiqueta4{
+	font-family:sans-serif;
+}
+
+#etiqueta5{
+	font-family:cursive;
+}
+
+#etiqueta6{
+	font-family:fantasy, verdana, helvetica, arial, "Times New Roman";
+}
+
+#etiqueta7{
+	font-family:fantasy, "Times New Roman", verdana, helvetica,arial;
+}
+
+#etiqueta8{
+	font-family:monospace;
+}
+
+#etiqueta9{
+	font-variant:small-caps;
+}
+
+#etiqueta10{
+	font-weight:bold;
+}
+
+#etiqueta11{
+	font-weight:900;
+}
+
+#etiqueta12{
+	font-size:56px;
+}
+
+#etiqueta13{
+	font: italic bold small-caps 24px/1 Arial, Helvetica, sans-serif;
+}
