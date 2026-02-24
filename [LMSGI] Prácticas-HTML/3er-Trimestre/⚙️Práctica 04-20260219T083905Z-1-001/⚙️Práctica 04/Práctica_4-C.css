@@ -1,0 +1,66 @@
+h1 {
+	text-decoration: overline;
+	color:#069306;
+	letter-spacing:10px;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	font-variant:small-caps;
+	text-align:center;
+}
+
+#ancho20 {
+	width:20%;
+}
+
+#ancho80 {
+	width:80%;
+}
+
+.center {
+	text-align:center;
+}
+
+#align1 {
+	vertical-align:Baseline;
+}
+
+#align2 {
+	vertical-align:Sub;
+}
+
+#align3 {
+	vertical-align:Super;
+}
+
+#align4 {
+	vertical-align:Top;
+}
+
+#align5 {
+	vertical-align:Text-top;
+}
+
+#align6 {
+	vertical-align:Middle;
+}
+
+#align7 {
+	vertical-align:Bottom;
+}
+
+#align8 {
+	vertical-align:Text-bottom;
+}
+
+#align9 {
+	vertical-align:1em;
+}
+
+#align10 {
+	vertical-align:-1em;
+}
+
+#align11 {
+	vertical-align:90%;
+}
