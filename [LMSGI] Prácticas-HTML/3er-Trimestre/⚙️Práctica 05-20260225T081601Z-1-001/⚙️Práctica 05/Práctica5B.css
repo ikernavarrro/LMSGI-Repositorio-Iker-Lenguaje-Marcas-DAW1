@@ -1,0 +1,53 @@
+body {
+	font-family:calibri;
+	text-align:left;
+}
+
+p {
+	word-spacing:8px;
+}
+
+h1 {
+	background-color:#BBB;
+	text-align:center;
+	font-size:48px;
+	font-variant:small-caps;
+}
+
+h2 {
+	text-indent:24px;
+	font-size:36px;
+	font-variant:small-caps;
+}
+
+ol {
+	list-style-type:georgian;
+	color:blue;
+}
+
+ul {
+	list-style-type:upper-roman;
+	color:green;
+	list-style-position:inside;
+}
+
+dl {
+	color:red;
+	text-indent:156px;
+}
+
+strong {
+	font-style:oblique;
+	text-decoration:underline;
+	font-size:20px;
+	vertical-align:1.5em;
+}
+
+.wow {
+	text-align:center;
+	list-style-type:armenian;
+	list-style-position:inside;
+	color:orange;
+	font-size:0.8em;
+	font-style:italic;
+}
