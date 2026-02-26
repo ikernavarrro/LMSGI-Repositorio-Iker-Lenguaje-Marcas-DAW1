@@ -1,0 +1,16 @@
+body {
+	background-color:#a9cb88;
+	background-image:url("Images/bg1.jpg");
+	background-repeat:repeat;
+}
+
+h1 {
+	font-family:arial;
+	text-align:center;
+	text-decoration:overline;
+	color:white;
+	letter-spacing:10px;
+	font-size:24px;
+	font-variant:small-caps;
+	font-weight:bold;
+}
