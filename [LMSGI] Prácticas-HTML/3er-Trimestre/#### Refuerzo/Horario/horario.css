@@ -1,0 +1,46 @@
+body {
+	font-family:calibri;
+	font-variant:small-caps;
+}
+
+.pro {
+	background-color:#a8d08d;
+}
+
+.lmsgi {
+	background-color:#00b0f0;
+}
+
+.ent {
+	background-color:#92d050;
+}
+
+.daps {
+	background-color:#ffff00;
+}
+
+.saps {
+	background-color:#ff99ff;
+}
+
+.bd {
+	background-color:#ffc000;
+}
+
+.ipe {
+	background-color:#00d5d5;
+}
+
+.it {
+	background-color:#bdd6ee;
+}
+
+.recreo {
+	background-color:#ea9999;
+	font-family:arial;
+	font-weight:bolder;
+	font-size:18px;
+	letter-spacing:56px;
+	text-align:center;
+}
+
