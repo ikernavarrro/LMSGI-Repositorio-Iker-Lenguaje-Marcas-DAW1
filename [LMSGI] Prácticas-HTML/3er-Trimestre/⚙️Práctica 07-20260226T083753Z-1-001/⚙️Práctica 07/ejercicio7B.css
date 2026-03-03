@@ -1,0 +1,43 @@
+body {
+	font-family:arial;
+}
+
+h1 {
+	font-size:2em;
+	font-variant:small-caps;
+	font-weight:bold;
+	color:#556975;
+	letter-spacing:5px;
+	text-align:center;
+}
+
+#encabezado {
+	width:auto;
+	height:auto;
+	background-color:#FFD;
+	border-width:medium;
+	border-style:double;
+	border-color:blue;
+	text-align:justify;
+	font-variant:small-caps;
+}
+
+#caja_izq {
+	background-color:#FFD;
+	width:25%;
+	border-style:solid;
+	border-width:thin;
+	text-align:center;
+}
+
+#caja_dcha {
+	width:65%;
+	border-style:solid;
+	border-width:thin;
+	text-align:justify;
+}
+
+.destacado {
+	background-color:#FFFFAD;
+	font-weight:bold;
+}
