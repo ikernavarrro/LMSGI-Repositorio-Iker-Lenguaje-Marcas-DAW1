@@ -1,0 +1,43 @@
+body {
+	background-image:url("Images/bg.gif");
+	background-repeat:repeat;
+}
+
+h1 {
+	font-family:arial;
+	text-align:center;
+	text-decoration:overline;
+	color:#b0c4de;
+	letter-spacing:10px;
+	font-size:24px;
+	font-variant:small-caps;
+	font-weight:bold;
+}
+
+td p {	
+	tex-align:justify;
+}
+
+.primera {
+	background-color:#b0c4de;
+}
+
+.segunda {
+	background-color:white;
+	background-image:url("Images/k1.gif");
+	background-repeat:repeat;
+}
+
+.tercera {
+	background-color:white;
+	background-image:url("Images/k6.gif");
+	background-position:center center;
+}
+
+.cuarta {
+	background-color:#b0c4de;
+	background-image:url("Images/k3.gif");
+	background-repeat:repeat;
+}
+
+
