@@ -1,0 +1,106 @@
+body {
+	font-family:arial;
+}
+
+#contenedor {
+	width:670px;
+	margin:auto;
+	text-align:justify;
+}
+
+h1,h2 {
+	font-variant:small-caps;
+	color:#07A;
+	letter-spacing:5px;
+	text-align:center;
+}
+
+h1 {
+	font-size:36px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+h2 {
+	font-size:14px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+#bordes_encabezado {
+	border-top-width:2px;
+	border-left-width:0px;
+	border-bottom-width:2px;
+	border-right-width:0px;
+	border-style:solid;
+	color:#07A;
+	height:80px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center; /*¿Porqué no margin auto?*/
+}
+
+#encabezado {
+	width:580px;
+}
+
+a img {
+	/*height:90;
+	width:120;*/
+	opacity:0.5;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+a img:hover {
+	/*height:90;
+	width:120;*/
+	opacity:0.85;
+	cursor:hand;
+	transition: opacity 0.2s ease-in-out; /*extra*/	
+}
+
+a img:active {
+	/*height:90;
+	width:120;*/
+	opacity:0.25;
+	cursor:wait;
+}
+
+#foto {
+	border-width:1px;
+	border-style:double;
+	color:#07A;
+	opacity:1;
+}
+
+#foto:hover { /*extra*/
+	border-width:10px;
+	border-style:double;
+	color:#07A;
+	opacity:1;
+	transition: border-width 0.3s ease; /*extra*/	
+	
+}
+
+#margen_foto {
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center; /*¿Porqué no margin auto?*/
+}
+
+ ul {
+	list-style-type:square;
+ }
+ 
+ li {
+	padding-right:20px;
+	padding-bottom:10px;
+}
+
+#pie {
+	text-align:center;
+	color:white;
+	background-color:#CCC;
+	padding:5px;
+}
