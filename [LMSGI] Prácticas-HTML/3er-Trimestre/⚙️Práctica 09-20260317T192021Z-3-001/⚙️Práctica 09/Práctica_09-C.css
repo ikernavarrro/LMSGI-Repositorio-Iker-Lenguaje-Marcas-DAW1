@@ -1,0 +1,58 @@
+body {
+    font-family:Arial;
+}
+
+h1 {
+    font-family:Arial;
+    font-size:28px;
+    font-variant:small-caps;
+    color:#07A;
+    letter-spacing:3px;
+    text-align:center;
+    margin:50px;
+}
+
+table {
+    width:70%;
+    border-style:solid;
+    border-width:2px;
+    padding:5px;
+    margin:auto;
+    border-spacing: 10px;
+    background-color: #EFEFFF;
+    empty-cells:hide;
+    
+}
+
+caption{
+    caption-side: bottom;
+    font-size: 75%;
+    font-style:italic;
+    letter-spacing: 2px;
+}
+
+thead th, tfoot th {
+    background-color: #07A;
+    color:white;
+    font-variant:small-caps;
+    font-weight: lighter;
+    letter-spacing:3px;
+    padding:10px;
+}
+
+tfoot td {
+    background-color: #CCC;
+    text-align:center;
+    font-weight:bold;
+    color:#191970;
+    border-width: 0px;
+    padding-left:0px;
+}
+
+td {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    text-align:right;
+    padding-left:35px;
+}
