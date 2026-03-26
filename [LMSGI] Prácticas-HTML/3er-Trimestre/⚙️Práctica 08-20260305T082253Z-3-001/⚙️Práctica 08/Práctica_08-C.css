@@ -41,28 +41,29 @@ h2 {
 }
 
 #encabezado {
+	margin:auto;
 	width:580px;
 }
 
 a img {
-	/*height:90;
-	width:120;*/
+	/*height=90px;
+	width=120px;*/
 	opacity:0.5;
 	margin-left:10px;
 	margin-right:10px;
 }
 
 a img:hover {
-	/*height:90;
-	width:120;*/
+	/*height=90px;
+	width=120px;*/
 	opacity:0.85;
 	cursor:hand;
 	transition: opacity 0.2s ease-in-out; /*extra*/	
 }
 
 a img:active {
-	/*height:90;
-	width:120;*/
+	/*height=90px;
+	width=120px;*/
 	opacity:0.25;
 	cursor:wait;
 }
