@@ -1,4 +1,11 @@
-body {font-family:arial}
+
+#contenedor_principal ¨{
+	font-family:arial;
+	width:100%;
+	margin:auto;
+	min-width:800px;
+
+}
 h1 {
 	font-variant:small-caps; 
 	font-weight:bold; 
@@ -29,21 +36,33 @@ h1 {
 	text-align:center;
 	/* Práctica 8A */
 	margin-bottom:5px;
-	padding-left:10px;
-	padding-right:10px
+	padding:10px;
+	float:left;
 }
 #caja_dcha {
 	width:65%;
 	border-style: solid;
 	border-width:thin;
 	text-align:justify;
+	
 	/* Práctica 8A */
 	padding-left:20px;
 	padding-right:20px;
-	margin-left:5px;
-	margin-right:5px;
+	margin:0px 5px 25px 5px;
+	float:left;
 }
 .destacado 	{
 	background-color:#FFFFAD;
 	font-weight:bold
+}
+
+#pie {
+	background:#789;
+	border-width:thin;
+	border-style:solid;
+	border-color:black;
+	text-align:center;
+	color:white;
+	padding:10px 0px;
+	clear:left;
 }
