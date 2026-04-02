@@ -1,0 +1,46 @@
+body {
+    font-family:Arial;
+}
+
+h1 {
+    text-align:center;
+    font-variant:small-caps;
+    color:grey;
+    letter-spacing:5px;
+}
+
+/*Si el botón azul no lo posicionaras, ¿dónde aparecería el botón y el círculo de la notificación (el
+punto rojo)? ¿Qué ha cambiado? Explícalo en un comentario dentro del css.*/
+/*
+Si no se posicionara, el botón azul aparecería al final del texto siguiendo el
+flujo position: static por defecto. Por otra parte, el círculo rojo 
+se desplazaría con él manteniéndose en su esquina porque le he puesto absolute.
+Si también le quitáramos el posicionamiento, se vería como un elemento
+en línea justo después de la palabra Ayuda.
+*/
+#boton_ayuda {
+    position:fixed;
+    background-color:#007bff;
+    color:aliceblue;
+    width:100px;
+    height:40px;
+    line-height:40px;
+    text-align: center;
+    border-radius:8px;
+    bottom:30px;
+    right:30px;
+}
+
+#notificacion {
+    position:absolute;
+    display: inline-block;
+    background-color: red;
+    font-size: 13px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;      
+    border-radius: 50%;    
+    top:-5px;
+    right:-5px; 
+}
